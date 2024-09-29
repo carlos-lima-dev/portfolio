@@ -15,10 +15,9 @@ document.addEventListener("DOMContentLoaded", function () {
   var skillsLink = document.getElementById("skills-link");
 
   // Check if the user is on mobile (you can adjust the screen width as needed)
-  if (window.innerWidth <= 768) {
-    // Mobile devices typically have a width of 768px or less
-    skillsLink.href = "#mobile-skills"; // Change this to the ID you want on mobile
+  if (window.innerWidth <= 1300) {
+    skillsLink.href = "#mobile-skills";
   } else {
-    skillsLink.href = "#desktop-skills"; // Change this to the ID you want on desktop
+    skillsLink.href = "#desktop-skills";
   }
 });
