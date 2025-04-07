@@ -173,7 +173,7 @@ function sendData(uname, email, msg) {
   };
 
   // Send the form data as a POST request using Fetch API
-  fetch("https://store-api-rgq8.onrender.com/form/send-email", {
+  fetch("https://store-nodejs-mongodb-api.onrender.com/form/send-email", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
